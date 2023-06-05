@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+//GitHub is a web-based platform for version control and collaboration that allows developers to host, review, and manage code repositories.
 class ViewController: UIViewController {
 
     @IBOutlet weak var inputTf: UITextField!
