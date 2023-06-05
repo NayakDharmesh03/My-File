@@ -63,7 +63,7 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource{
 }
 
 
-//Repositories: A repository, or "repo" for short, is a collection of files and folders that make up a project. Repositories can be either public, accessible to anyone, or private, accessible only to authorized individuals.
+
 
 //GitHub is a web-based platform for version control and collaboration that allows developers to host, review, and manage code repositories. It provides a centralized location for storing and managing source code, making it easier for teams to collaborate on projects.
 
