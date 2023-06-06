@@ -43,10 +43,29 @@ class ViewController: UIViewController {
         inputTf.text = ""
     }
     
-
+/*
+ this is myBranch code
+ func stopAudio() {
+         player?.stop()
+         player = nil
+         timer?.invalidate()
+         timer = nil
+     }
+ */
 
 }
 
+/*
+ this is myBranch code
+ @IBAction func sliderAction(_ sender: Any) {
+         if let player = player {
+             player.stop()
+             player.currentTime = TimeInterval(musicSlider.value)
+             player.prepareToPlay()
+             player.play()
+         }
+     }
+ */
 
 
 extension ViewController {
