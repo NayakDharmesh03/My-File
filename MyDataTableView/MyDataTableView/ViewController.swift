@@ -6,7 +6,7 @@
 //
 
 import UIKit
-//GitHub is a web-based platform for version control and collaboration that allows developers to host, review, and manage code repositories.
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var inputTf: UITextField!
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         inputTf.text = ""
     }
     
-//    You can temporarily save your changes without committing them to a branch by stashing the changes in GitHub Desktop.
+
 
 }
 extension ViewController : UITableViewDelegate,UITableViewDataSource{
@@ -59,11 +59,9 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource{
         }
     }
    
-//    To apply your changes to your repository, you must save the files and then commit the changes to a branch. If
-    
+
     
 }
 
 
-//GitHub is a web-based platform for version control and collaboration that allows developers to host, review, and manage code repositories. It provides a centralized location for storing and managing source code, making it easier for teams to collaborate on projects.
 
