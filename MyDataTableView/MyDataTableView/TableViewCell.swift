@@ -22,3 +22,15 @@ class TableViewCell: UITableViewCell {
     }
 
 }
+
+
+
+//    @IBAction func goToNextController(_ sender: UIButton) {
+//         stopAudio()
+//         // Perform the logic to jump to the next controller here
+//     }
+
+//     @IBAction func dismissController(_ sender: UIButton) {
+//         stopAudio()
+//         dismiss(animated: true, completion: nil)
+//     }
