@@ -30,7 +30,10 @@ class TableViewCell: UITableViewCell {
 //         // Perform the logic to jump to the next controller here
 //     }
 
-//     @IBAction func dismissController(_ sender: UIButton) {
-//         stopAudio()
-//         dismiss(animated: true, completion: nil)
-//     }
+
+//
+//@IBOutlet weak var resultLbl: UIView!
+//    override func awakeFromNib() {
+//        super.awakeFromNib()
+
+
