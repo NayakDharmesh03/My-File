@@ -5,18 +5,36 @@
 //  Created by Bhautik Dudhat on 08/02/23.
 //
 
+/*
 
+AVAudioPlayer Functionality
 
-//override func dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
+class AudioPlayerViewController: UIViewController {
 
-//if let audioPlayerVC = presentedViewController as? AudioPlayerViewController {
-//    audioPlayerVC.stopAudio()
-//}
+    @IBOutlet weak var playButtonView: UIView!
+    var player: AVAudioPlayer?
+    var timer: Timer?
 
-//super.dismiss(animated: flag, completion: completion)
-//}
+    @IBOutlet weak var musicSlider: UISlider!
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        playButtonView.layer.cornerRadius = playButtonView.frame.height / 2
 
+        do {
+            let audioURL = Bundle.main.url(forResource: "lofi-study-112191", withExtension: "mp3")
+            player = try AVAudioPlayer(contentsOf: audioURL!)
+            player?.prepareToPlay()
+            player?.delegate = self
+
+            // Schedule a timer to update the slider value
+            timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateSliderValue), userInfo: nil, repeats: true)
+        } catch let error {
+            print("Failed to create AVAudioPlayer: \(error.localizedDescription)")
+        }
+    }
+*/
 
 import UIKit
 
@@ -46,7 +64,12 @@ class ViewController: UIViewController {
 
 
 }
-
+/*
+override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        stopAudio()
+    }
+*/
 
 
 extension ViewController {
@@ -86,7 +109,14 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource{
     }
    
 
+    /*
     
+     override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        stopAudio()
+    }
+
+    */
 }
 
 
