@@ -25,8 +25,6 @@ class TableViewCell: UITableViewCell {
 
 }
 
-
-
 //    @IBAction func goToNextController(_ sender: UIButton) {
 //         stopAudio()
 //         // Perform the logic to jump to the next controller here
