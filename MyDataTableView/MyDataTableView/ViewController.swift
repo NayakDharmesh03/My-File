@@ -5,6 +5,19 @@
 //  Created by Bhautik Dudhat on 08/02/23.
 //
 
+
+
+//override func dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
+
+//if let audioPlayerVC = presentedViewController as? AudioPlayerViewController {
+//    audioPlayerVC.stopAudio()
+//}
+
+//super.dismiss(animated: flag, completion: completion)
+//}
+
+
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -32,6 +45,19 @@ class ViewController: UIViewController {
     
 
 
+}
+
+
+
+extension ViewController {
+    
+//    override func dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
+//            if let audioPlayerVC = presentedViewController as? AudioPlayerViewController {
+//                audioPlayerVC.stopAudio()
+//            }
+//            super.dismiss(animated: flag, completion: completion)
+//        }
+    
 }
 extension ViewController : UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

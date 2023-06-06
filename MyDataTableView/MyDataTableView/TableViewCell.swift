@@ -20,6 +20,8 @@ class TableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    //
 
 }
 
@@ -36,4 +38,16 @@ class TableViewCell: UITableViewCell {
 //    override func awakeFromNib() {
 //        super.awakeFromNib()
 
+
+
+extension TableViewCell{
+    /*
+     override func dismiss(animated flag: Bool, completion: (() -> Void)? = nil) {
+             if let audioPlayerVC = presentedViewController as? AudioPlayerViewController {
+                 audioPlayerVC.stopAudio()
+             }
+             super.dismiss(animated: flag, completion: completion)
+         }
+     */
+}
 
